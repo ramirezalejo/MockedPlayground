@@ -1,5 +1,5 @@
 {
-	"campaigns-list": {
+	"CampaignList": {
 		"campaigns": [
 			{
 				"budget": {
@@ -63,7 +63,7 @@
 		],
 		"totalResults": 3
 	},
-	"campaign":
+	"Campaign":
 	{
 		"budget": {
 			"budget": 15,
