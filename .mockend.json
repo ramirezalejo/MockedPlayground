@@ -1,0 +1,127 @@
+{
+	"campaigns-list": {
+		"campaigns": [
+			{
+				"budget": {
+					"budget": 15,
+					"budgetType": "DAILY"
+				},
+				"campaignId": "52978233888897",
+				"dynamicBidding": {
+					"placementBidding": [],
+					"strategy": "AUTO_FOR_SALES"
+				},
+				"name": "Campaign - 8/11/2022 11:28:51",
+				"premiumBidAdjustment": false,
+				"startDate": "2022-08-11",
+				"state": "ENABLED",
+				"targetingType": "AUTO"
+			},
+			{
+				"budget": {
+					"budget": 100,
+					"budgetType": "DAILY"
+				},
+				"campaignId": "276748589410145",
+				"dynamicBidding": {
+					"placementBidding": [
+						{
+							"percentage": 900,
+							"placement": "PLACEMENT_TOP"
+						}
+					],
+					"strategy": "LEGACY_FOR_SALES"
+				},
+				"endDate": "2022-11-08",
+				"name": "Test SP campaign",
+				"premiumBidAdjustment": true,
+				"startDate": "2022-10-31",
+				"state": "ENABLED",
+				"targetingType": "AUTO"
+			},
+			{
+				"budget": {
+					"budget": 100,
+					"budgetType": "DAILY"
+				},
+				"campaignId": "62077673972552",
+				"dynamicBidding": {
+					"placementBidding": [
+						{
+							"percentage": 50,
+							"placement": "PLACEMENT_TOP"
+						}
+					],
+					"strategy": "AUTO_FOR_SALES"
+				},
+				"name": "SpTestCampaign-11/08/2022 15:32:07#l6p7828r590",
+				"premiumBidAdjustment": true,
+				"startDate": "2022-08-11",
+				"state": "ENABLED",
+				"targetingType": "MANUAL"
+			}
+		],
+		"totalResults": 3
+	},
+	"campaign":
+        {
+            "budget": {
+                "budget": 15,
+                "budgetType": "DAILY"
+            },
+            "campaignId": "52978233888897",
+            "dynamicBidding": {
+                "placementBidding": [],
+                "strategy": "AUTO_FOR_SALES"
+            },
+            "name": "Campaign - 8/11/2022 11:28:51",
+            "premiumBidAdjustment": false,
+            "startDate": "2022-08-11",
+            "state": "ENABLED",
+            "targetingType": "AUTO"
+        },
+        {
+            "budget": {
+                "budget": 100,
+                "budgetType": "DAILY"
+            },
+            "campaignId": "276748589410145",
+            "dynamicBidding": {
+                "placementBidding": [
+                    {
+                        "percentage": 900,
+                        "placement": "PLACEMENT_TOP"
+                    }
+                ],
+                "strategy": "LEGACY_FOR_SALES"
+            },
+            "endDate": "2022-11-08",
+            "name": "Test SP campaign",
+            "premiumBidAdjustment": true,
+            "startDate": "2022-10-31",
+            "state": "ENABLED",
+            "targetingType": "AUTO"
+        },
+        {
+            "budget": {
+                "budget": 100,
+                "budgetType": "DAILY"
+            },
+            "campaignId": "62077673972552",
+            "dynamicBidding": {
+                "placementBidding": [
+                    {
+                        "percentage": 50,
+                        "placement": "PLACEMENT_TOP"
+                    }
+                ],
+                "strategy": "AUTO_FOR_SALES"
+            },
+            "name": "SpTestCampaign-11/08/2022 15:32:07#l6p7828r590",
+            "premiumBidAdjustment": true,
+            "startDate": "2022-08-11",
+            "state": "ENABLED",
+            "targetingType": "MANUAL"
+        }
+	}
+}
