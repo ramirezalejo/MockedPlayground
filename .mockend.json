@@ -1,84 +1,111 @@
 {
 	"CampaignList": {
+		"_": {
+				  "items": 1
+				},
 		"campaigns": [
 			{
 				"budget": {
-					"budget": 15,
-					"budgetType": "DAILY"
+					"budget": {
+					  "int": {
+						"min": 0,
+						"max": 1000
+					  }
+					},
+					"budgetType": {
+					  "string": ["DAILY", "WEEKLY"]
+					}
 				},
-				"campaignId": "52978233888897",
-				"dynamicBidding": {
-					"placementBidding": [],
-					"strategy": "AUTO_FOR_SALES"
-				},
-				"name": "Campaign - 8/11/2022 11:28:51",
-				"premiumBidAdjustment": false,
-				"startDate": "2022-08-11",
-				"state": "ENABLED",
-				"targetingType": "AUTO"
-			},
-			{
-				"budget": {
-					"budget": 100,
-					"budgetType": "DAILY"
-				},
-				"campaignId": "276748589410145",
+				"campaignId": {
+					  "regexp": "[1-9][0-9]{6}"
+					},
 				"dynamicBidding": {
 					"placementBidding": [
 						{
-							"percentage": 900,
-							"placement": "PLACEMENT_TOP"
+							"percentage": {
+					  "regexp": "[0-9]{3}"
+					},
+							"placement": {
+							  "string": ["PLACEMENT_TOP", "PLACEMENT_TOP_10"]
+							}
 						}
 					],
-					"strategy": "LEGACY_FOR_SALES"
+					"strategy": {
+							  "string": ["AUTO_FOR_SALES", "LEGACY_FOR_SALES"]
+							}
 				},
-				"endDate": "2022-11-08",
-				"name": "Test SP campaign",
-				"premiumBidAdjustment": true,
-				"startDate": "2022-10-31",
-				"state": "ENABLED",
-				"targetingType": "AUTO"
-			},
-			{
-				"budget": {
-					"budget": 100,
-					"budgetType": "DAILY"
-				},
-				"campaignId": "62077673972552",
-				"dynamicBidding": {
-					"placementBidding": [
-						{
-							"percentage": 50,
-							"placement": "PLACEMENT_TOP"
-						}
-					],
-					"strategy": "AUTO_FOR_SALES"
-				},
-				"name": "SpTestCampaign-11/08/2022 15:32:07#l6p7828r590",
-				"premiumBidAdjustment": true,
-				"startDate": "2022-08-11",
-				"state": "ENABLED",
-				"targetingType": "MANUAL"
+				"name": {
+					  "string": {}
+					},
+				"premiumBidAdjustment": {
+					  "boolean": {}
+					},
+				"startDate": {"dateTime": {
+					"min": "2023-01-01T00:00:00Z",
+					"max": "2024-12-31T23:59:59Z"
+				}},
+				"state": {
+							  "string": ["ENABLED", "DISABLED"]
+							},
+				"targetingType": "AUTO"{
+							  "string": ["AUTO", "MANUAL"]
+							}
 			}
 		],
-		"totalResults": 3
+		"totalResults": {
+					  "int": {
+						"min": 1,
+						"max": 1000
+					  }
+					}
 	},
 	"Campaign":
 	{
 		"budget": {
-			"budget": 15,
-			"budgetType": "DAILY"
+			"budget": {
+			  "int": {
+				"min": 0,
+				"max": 1000
+			  }
+			},
+			"budgetType": {
+			  "string": ["DAILY", "WEEKLY"]
+			}
 		},
-		"campaignId": "52978233888897",
+		"campaignId": {
+			  "regexp": "[1-9][0-9]{6}"
+			},
 		"dynamicBidding": {
-			"placementBidding": [],
-			"strategy": "AUTO_FOR_SALES"
+			"placementBidding": [
+				{
+					"percentage": {
+			  "regexp": "[0-9]{3}"
+			},
+					"placement": {
+					  "string": ["PLACEMENT_TOP", "PLACEMENT_TOP_10"]
+					}
+				}
+			],
+			"strategy": {
+					  "string": ["AUTO_FOR_SALES", "LEGACY_FOR_SALES"]
+					}
 		},
-		"name": "Campaign - 8/11/2022 11:28:51",
-		"premiumBidAdjustment": false,
-		"startDate": "2022-08-11",
-		"state": "ENABLED",
-		"targetingType": "AUTO"
+		"name": {
+			  "string": {}
+			},
+		"premiumBidAdjustment": {
+			  "boolean": {}
+			},
+		"startDate": {"dateTime": {
+			"min": "2023-01-01T00:00:00Z",
+			"max": "2024-12-31T23:59:59Z"
+		}},
+		"state": {
+					  "string": ["ENABLED", "DISABLED"]
+					},
+		"targetingType": "AUTO"{
+					  "string": ["AUTO", "MANUAL"]
+					}
 	}
 	
 }
