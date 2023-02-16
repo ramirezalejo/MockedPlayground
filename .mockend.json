@@ -1,66 +1,10 @@
 {
-	"CampaignList": {
-		"_": {
-				  "items": 1
-				},
-		"campaigns": [
-			{
-				"budget": {
-					"budget": {
-					  "int": {
-						"min": 0,
-						"max": 1000
-					  }
-					},
-					"budgetType": {
-					  "string": ["DAILY", "WEEKLY"]
-					}
-				},
-				"campaignId": {
-					  "regexp": "[1-9][0-9]{6}"
-					},
-				"dynamicBidding": {
-					"placementBidding": [
-						{
-							"percentage": {
-					  "regexp": "[0-9]{3}"
-					},
-							"placement": {
-							  "string": ["PLACEMENT_TOP", "PLACEMENT_TOP_10"]
-							}
-						}
-					],
-					"strategy": {
-							  "string": ["AUTO_FOR_SALES", "LEGACY_FOR_SALES"]
-							}
-				},
-				"name": {
-					  "string": {}
-					},
-				"premiumBidAdjustment": {
-					  "boolean": {}
-					},
-				"startDate": {"dateTime": {
-					"min": "2023-01-01T00:00:00Z",
-					"max": "2024-12-31T23:59:59Z"
-				}},
-				"state": {
-							  "string": ["ENABLED", "DISABLED"]
-							},
-				"targetingType": "AUTO"{
-							  "string": ["AUTO", "MANUAL"]
-							}
-			}
-		],
-		"totalResults": {
-					  "int": {
-						"min": 1,
-						"max": 1000
-					  }
-					}
-	},
+	
 	"Campaign":
 	{
+		"_": {
+			  "items": 100
+			},
 		"budget": {
 			"budget": {
 			  "int": {
