@@ -1,5 +1,4 @@
 {
-	
 	"Campaign":
 	{
 		"_": {
@@ -47,9 +46,10 @@
 		"state": {
 					  "string": ["ENABLED", "DISABLED"]
 					},
-		"targetingType": "AUTO"{
+		"targetingType": {
 					  "string": ["AUTO", "MANUAL"]
 					}
 	}
+	
 	
 }
